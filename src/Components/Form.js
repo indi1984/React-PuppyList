@@ -10,7 +10,7 @@ function Form({addPuppy}) {
       name, 
       breed
     }
-    addPuppy(puppyOjb)
+    addPuppy(puppyObj)
   }
 
   return (
