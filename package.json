@@ -3,21 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "react-scripts-start",
+    "start": "react-scripts start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.37.0",
-    "faker": "^6.6.6",
-    "prettier": "^2.8.7"
-  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "faker": "^6.6.6"
   },
   "repository": {
     "type": "git",
@@ -27,5 +25,17 @@
     "url": "https://github.com/indi1984/React-PuppyList/issues"
   },
   "homepage": "https://github.com/indi1984/React-PuppyList#readme",
-  "description": ""
+  "description": "",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
