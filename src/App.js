@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PuppyList from "./Components/PuppyList";
+import Form from './Components/Form';
 
 const puppyArray = [
   { name: "fluffy", breed: "dalmation" },
@@ -10,14 +11,17 @@ const puppyArray = [
 
 const App = () => {
   const [puppies, setPuppies] = useState(puppyArray);
-
-  console.log(puppies);
+  
+  const addPuppy = (puppyObj) => {
+    setPuppies([...puppies, puppyObj])
+  }
 
   return (
     <div>
+      <Form addPuppy={addPuppy} />
       <PuppyList puppies={puppies} />
     </div>
-  );
-};
+  )
+}
 
 export default App;
