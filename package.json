@@ -1,4 +1,14 @@
 {
+  "name": "react-puppylist",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts-start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "eslint": "^8.37.0",
     "faker": "^6.6.6",
@@ -8,5 +18,14 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indi1984/React-PuppyList.git"
+  },
+  "bugs": {
+    "url": "https://github.com/indi1984/React-PuppyList/issues"
+  },
+  "homepage": "https://github.com/indi1984/React-PuppyList#readme",
+  "description": ""
 }
