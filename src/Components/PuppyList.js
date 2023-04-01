@@ -7,7 +7,7 @@ const PuppyList = ({puppies}) => {
       {
         puppies.map((pup, idx) => {
           return (
-            <p key={idx}>{pup.name} is a {pup.breed}</p>
+            <p key={ idx }>{ pup.name } is a { pup.breed }</p>
           );
         })
       }
