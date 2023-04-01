@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PuppyList = ({puppies}) => {
+const PuppyList = ({ puppies }) => {
 
   return (
     <ul>
