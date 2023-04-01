@@ -18,8 +18,8 @@ const App = () => {
 
   return (
     <div>
-      <Form addPuppy={addPuppy} />
-      <PuppyList puppies={puppies} />
+      <Form addPuppy={ addPuppy } />
+      <PuppyList puppies={ puppies } />
     </div>
   )
 }

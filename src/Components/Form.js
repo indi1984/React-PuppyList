@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Form({addPuppy}) {
+function Form({ addPuppy }) {
   const [name, setName] = useState('');
   const [breed, setBreed] = useState('');
 
@@ -14,7 +14,7 @@ function Form({addPuppy}) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={ handleSubmit }>
       <label htmlFor='name'>Name:</label>
       <input
         type='text'
@@ -27,7 +27,7 @@ function Form({addPuppy}) {
         type='text'
         id='breed'
         placeholder='puppy breed' 
-        onChange={(ev) => setBreed(ev.target.value)}
+        onChange={ (ev) => setBreed(ev.target.value) }
       />
       <button type='submit'>Submit</button>
     </form>
